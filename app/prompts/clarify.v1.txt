@@ -1,0 +1,1 @@
+Write ONE short, friendly message asking the customer for all missing details at once, using the phrases in "missing_labels". Do not ask for anything not listed. Return only JSON: {"question": "<text>"}.

@@ -1,0 +1,229 @@
+{"message": "Need an AC technician Saturday morning, Koramangala, under 1500", "category": "home_repair_ac", "source": "handwritten"}
+{"message": "ac not cooling since yesterday pls send someone", "category": "home_repair_ac", "source": "handwritten"}
+{"message": "meri ac kharab ho gayi hai, kal technician bhej do", "category": "home_repair_ac", "source": "handwritten"}
+{"message": "Kitchen tap is leaking badly, need plumber today evening HSR", "category": "plumbing", "source": "handwritten"}
+{"message": "nal se paani leak ho raha hai, plumber chahiye", "category": "plumbing", "source": "handwritten"}
+{"message": "bathroom drain clogged again :( who can fix", "category": "plumbing", "source": "handwritten"}
+{"message": "ceiling fan stopped working and a switch is sparking, need electrician tomorrow", "category": "electrician", "source": "handwritten"}
+{"message": "bijli ka kaam hai, light kharab hai bedroom ki", "category": "electrician", "source": "handwritten"}
+{"message": "Reserve a table for 4 at a good place in Indiranagar Friday 8pm", "category": "restaurant_booking", "source": "handwritten"}
+{"message": "dinner reservation for two tomorrow, somewhere romantic", "category": "restaurant_booking", "source": "handwritten"}
+{"message": "lunch booking for the team of 10 on Thursday", "category": "restaurant_booking", "source": "handwritten"}
+{"message": "Need milk, eggs and bread delivered to Jayanagar by 8am", "category": "groceries", "source": "handwritten"}
+{"message": "sabzi aur doodh chahiye kal subah", "category": "groceries", "source": "handwritten"}
+{"message": "order atta rice and dal for the month, HSR", "category": "groceries", "source": "handwritten"}
+{"message": "flight to Goa on 14 Nov, 2 pax, budget 12k", "category": "travel_booking", "source": "handwritten"}
+{"message": "need train ticket to Chennai this weekend", "category": "travel_booking", "source": "handwritten"}
+{"message": "book a hotel in Coorg for 2 nights under 6000", "category": "travel_booking", "source": "handwritten"}
+{"message": "Birthday gift for my mom, around 2000, need by Sunday", "category": "gifting", "source": "handwritten"}
+{"message": "send a bouquet to my wife tomorrow, anniversary surprise", "category": "gifting", "source": "handwritten"}
+{"message": "cake and flowers for my sister's birthday saturday", "category": "gifting", "source": "handwritten"}
+{"message": "Book a dentist appointment next Tuesday, tooth pain", "category": "doctor_appointment", "source": "handwritten"}
+{"message": "need a dermatologist this weekend for skin rash", "category": "doctor_appointment", "source": "handwritten"}
+{"message": "Pick up a parcel from Whitefield and drop at Indiranagar tonight", "category": "delivery_pickup", "source": "handwritten"}
+{"message": "courier my documents to Pune by tomorrow", "category": "delivery_pickup", "source": "handwritten"}
+{"message": "help me renew my passport, need appointment next week", "category": "personal_admin", "source": "handwritten"}
+{"message": "driving licence renewal at RTO, can you handle it", "category": "personal_admin", "source": "handwritten"}
+{"message": "cab to the airport tomorrow 5am from Koramangala", "category": "cab_booking", "source": "handwritten"}
+{"message": "need taxi tonight 11pm Indiranagar to Whitefield", "category": "cab_booking", "source": "handwritten"}
+{"message": "dry clean 3 suits and ironing, pick up Saturday", "category": "laundry", "source": "handwritten"}
+{"message": "deep clean my 2bhk flat Sunday, HSR Layout", "category": "house_cleaning", "source": "handwritten"}
+{"message": "cockroach problem in kitchen, pest control this week", "category": "pest_control", "source": "handwritten"}
+{"message": "car service due, pickup from BTM on Saturday", "category": "car_service", "source": "handwritten"}
+{"message": "bike service and puncture fix tomorrow Jayanagar", "category": "bike_service", "source": "handwritten"}
+{"message": "need a carpenter to fix my wardrobe door", "category": "carpentry", "source": "handwritten"}
+{"message": "wall paint for 2 rooms, painter needed next week", "category": "painting", "source": "handwritten"}
+{"message": "haircut and facial at home saturday 4pm Koramangala", "category": "salon_at_home", "source": "handwritten"}
+{"message": "blouse alteration needed before friday", "category": "tailoring", "source": "handwritten"}
+{"message": "balloon decoration for kid's party Sunday, 3000 budget", "category": "event_decor", "source": "handwritten"}
+{"message": "photographer for engagement on 20th Dec, Whitefield", "category": "photographer", "source": "handwritten"}
+{"message": "catering for 40 people on Sunday lunch", "category": "catering", "source": "handwritten"}
+{"message": "2 tickets for the 9pm movie tonight at PVR", "category": "movie_tickets", "source": "handwritten"}
+{"message": "dog walker needed daily mornings, Indiranagar", "category": "pet_care", "source": "handwritten"}
+{"message": "maths tutor for class 9 kid, evenings, JP Nagar", "category": "tutoring", "source": "handwritten"}
+{"message": "phone screen cracked, need replacement in Koramangala", "category": "gadget_repair", "source": "handwritten"}
+{"message": "washing machine not draining, repair please", "category": "appliance_repair", "source": "handwritten"}
+{"message": "packers and movers for 2bhk shifting on 5th", "category": "packers_movers", "source": "handwritten"}
+{"message": "wifi keeps dropping, broadband guy needed HSR", "category": "wifi_internet", "source": "handwritten"}
+{"message": "LPG cylinder refill pls, Jayanagar", "category": "gas_cylinder", "source": "handwritten"}
+{"message": "pay my electricity bill and credit card bill", "category": "bill_payment", "source": "handwritten"}
+{"message": "need a lawyer for a property dispute, first consult this week", "category": "legal_help", "source": "handwritten"}
+{"message": "help with ITR filing and tax saving, this month", "category": "insurance_finance", "source": "handwritten"}
+{"message": "kuch kaam hai, can u help", "category": "unknown", "source": "handwritten"}
+{"message": "hello", "category": "unknown", "source": "handwritten"}
+{"message": "thanks!", "category": "unknown", "source": "handwritten"}
+{"message": "what is the weather in Bangalore", "category": "unknown", "source": "handwritten"}
+{"message": "my wash is piling up, someone to take clothes", "category": "laundry", "source": "handwritten"}
+{"message": "somebody to look at the geyser, it gives shocks", "category": "appliance_repair", "source": "handwritten"}
+{"message": "need a ride to the station at 6", "category": "cab_booking", "source": "handwritten"}
+{"message": "want to plan something special for our 5th year together", "category": "gifting", "source": "handwritten"}
+{"message": "book a table at a nice restaurant", "category": "restaurant_booking", "source": "template"}
+{"message": "hi, need a dinner reservation sunday evening", "category": "restaurant_booking", "source": "template"}
+{"message": "pls table for brunch in Indiranagar", "category": "restaurant_booking", "source": "template"}
+{"message": "LUNCH TABLE BOOKING", "category": "restaurant_booking", "source": "template"}
+{"message": "book a table at a nice restaurant next week, btm", "category": "restaurant_booking", "source": "template"}
+{"message": "my ac is not cooling", "category": "home_repair_ac", "source": "template"}
+{"message": "hi, need ac service saturday morning", "category": "home_repair_ac", "source": "template"}
+{"message": "pls split ac repair needed in Koramangala", "category": "home_repair_ac", "source": "template"}
+{"message": "air conditioner technicain", "category": "home_repair_ac", "source": "template"}
+{"message": "my ac is not cooling tomorrow, hsr", "category": "home_repair_ac", "source": "template"}
+{"message": "need a plumber", "category": "plumbing", "source": "template"}
+{"message": "hi, tap leak fix saturday morning", "category": "plumbing", "source": "template"}
+{"message": "pls drain is clogged in jayanagar", "category": "plumbing", "source": "template"}
+{"message": "PIPE LEAKAGE IN BATHROOM", "category": "plumbing", "source": "template"}
+{"message": "need a plumber this weekend, Koramangala", "category": "plumbing", "source": "template"}
+{"message": "need an electrician", "category": "electrician", "source": "template"}
+{"message": "hi, wiring problem tomorrow", "category": "electrician", "source": "template"}
+{"message": "pls ceiling fan not running in Whitefield", "category": "electrician", "source": "template"}
+{"message": "SHORT CIRCUIT IN SOCKET", "category": "electrician", "source": "template"}
+{"message": "need an electrician next week, Koramangala", "category": "electrician", "source": "template"}
+{"message": "need groceries", "category": "groceries", "source": "template"}
+{"message": "hi, order milk and eggs this weekend", "category": "groceries", "source": "template"}
+{"message": "pls get vegetables and fruits in Koramangala", "category": "groceries", "source": "template"}
+{"message": "NEED ATTA RICE AND BREAD", "category": "groceries", "source": "template"}
+{"message": "need groceries next week, Koramangala", "category": "groceries", "source": "template"}
+{"message": "book a flight", "category": "travel_booking", "source": "template"}
+{"message": "hi, need hotel booking tomorrow", "category": "travel_booking", "source": "template"}
+{"message": "pls train ticket needed in Indiranagar", "category": "travel_booking", "source": "template"}
+{"message": "PLAN A TRIP", "category": "travel_booking", "source": "template"}
+{"message": "book a flight saturday morning, jayanagar", "category": "travel_booking", "source": "template"}
+{"message": "need a birthday gift", "category": "gifting", "source": "template"}
+{"message": "hi, send flowers next week", "category": "gifting", "source": "template"}
+{"message": "pls order a cake in Koramangala", "category": "gifting", "source": "template"}
+{"message": "ANNIVERSARY HAMPER", "category": "gifting", "source": "template"}
+{"message": "need a birthday gift this weekend, Koramangala", "category": "gifting", "source": "template"}
+{"message": "book a doctor appointment", "category": "doctor_appointment", "source": "template"}
+{"message": "hi, need dentist appointment tonight", "category": "doctor_appointment", "source": "template"}
+{"message": "pls physio session in hsr", "category": "doctor_appointment", "source": "template"}
+{"message": "DERMATOLOGIST CHECKUP", "category": "doctor_appointment", "source": "template"}
+{"message": "book a doctor appointment next week, Indiranagar", "category": "doctor_appointment", "source": "template"}
+{"message": "pick up a parcel", "category": "delivery_pickup", "source": "template"}
+{"message": "hi, courier a package tomorrow", "category": "delivery_pickup", "source": "template"}
+{"message": "pls deliver a package in jayanagar", "category": "delivery_pickup", "source": "template"}
+{"message": "DROP OFF DOCUMENTS", "category": "delivery_pickup", "source": "template"}
+{"message": "pick up a parcel friday 7pm, jayanagar", "category": "delivery_pickup", "source": "template"}
+{"message": "passport renewal help", "category": "personal_admin", "source": "template"}
+{"message": "hi, pan card correction tonight", "category": "personal_admin", "source": "template"}
+{"message": "pls aadhaar update in Koramangala", "category": "personal_admin", "source": "template"}
+{"message": "RTO WORK", "category": "personal_admin", "source": "template"}
+{"message": "passport renewal help this weekend, hsr", "category": "personal_admin", "source": "template"}
+{"message": "need a cab", "category": "cab_booking", "source": "template"}
+{"message": "hi, book taxi tomorrow", "category": "cab_booking", "source": "template"}
+{"message": "pls airport drop needed in jayanagar", "category": "cab_booking", "source": "template"}
+{"message": "RIDE TO THE AIRPORT", "category": "cab_booking", "source": "template"}
+{"message": "need a cab tomorrow, jayanagar", "category": "cab_booking", "source": "template"}
+{"message": "laundry pickup", "category": "laundry", "source": "template"}
+{"message": "hi, dry clean my clothes saturday morning", "category": "laundry", "source": "template"}
+{"message": "pls need ironing in jayanagar", "category": "laundry", "source": "template"}
+{"message": "DHOBI SERVICE", "category": "laundry", "source": "template"}
+{"message": "laundry pickup this weekend, Whitefield", "category": "laundry", "source": "template"}
+{"message": "house cleaning needed", "category": "house_cleaning", "source": "template"}
+{"message": "hi, deep clean my flat next week", "category": "house_cleaning", "source": "template"}
+{"message": "pls sofa cleaning in jp nagar", "category": "house_cleaning", "source": "template"}
+{"message": "bathroom cleanning service", "category": "house_cleaning", "source": "template"}
+{"message": "house cleaning needed sunday evening, Whitefield", "category": "house_cleaning", "source": "template"}
+{"message": "pest control needed", "category": "pest_control", "source": "template"}
+{"message": "hi, cockroach in kitchen monday 10am", "category": "pest_control", "source": "template"}
+{"message": "pls termite problem in hsr", "category": "pest_control", "source": "template"}
+{"message": "MOSQUITO ISSUE AT HOME", "category": "pest_control", "source": "template"}
+{"message": "pest control needed friday 7pm, Indiranagar", "category": "pest_control", "source": "template"}
+{"message": "car service needed", "category": "car_service", "source": "template"}
+{"message": "hi, car wash please tonight", "category": "car_service", "source": "template"}
+{"message": "pls tyre change in btm", "category": "car_service", "source": "template"}
+{"message": "CAR REPAIR", "category": "car_service", "source": "template"}
+{"message": "car service needed this weekend, Koramangala", "category": "car_service", "source": "template"}
+{"message": "bike service", "category": "bike_service", "source": "template"}
+{"message": "hi, scooter repair friday 7pm", "category": "bike_service", "source": "template"}
+{"message": "pls motorcycle service in jayanagar", "category": "bike_service", "source": "template"}
+{"message": "BIKE PUNCTURE", "category": "bike_service", "source": "template"}
+{"message": "bike service monday 10am, hsr", "category": "bike_service", "source": "template"}
+{"message": "need a carpenter", "category": "carpentry", "source": "template"}
+{"message": "hi, furniture repair monday 10am", "category": "carpentry", "source": "template"}
+{"message": "pls wardrobe fix in hsr", "category": "carpentry", "source": "template"}
+{"message": "DOOR REPAIR", "category": "carpentry", "source": "template"}
+{"message": "need a carpenter tomorrow, Koramangala", "category": "carpentry", "source": "template"}
+{"message": "need a painter", "category": "painting", "source": "template"}
+{"message": "hi, wall paint job next week", "category": "painting", "source": "template"}
+{"message": "pls painting for my flat in Indiranagar", "category": "painting", "source": "template"}
+{"message": "WATERPROOFING WORK", "category": "painting", "source": "template"}
+{"message": "need a painter sunday evening, Indiranagar", "category": "painting", "source": "template"}
+{"message": "salon at home", "category": "salon_at_home", "source": "template"}
+{"message": "hi, haircut at home monday 10am", "category": "salon_at_home", "source": "template"}
+{"message": "pls facial and waxing in Whitefield", "category": "salon_at_home", "source": "template"}
+{"message": "BEAUTICIAN VISIT", "category": "salon_at_home", "source": "template"}
+{"message": "salon at home saturday morning, btm", "category": "salon_at_home", "source": "template"}
+{"message": "need a tailor", "category": "tailoring", "source": "template"}
+{"message": "hi, stitching work tomorrow", "category": "tailoring", "source": "template"}
+{"message": "pls alteration needed in jp nagar", "category": "tailoring", "source": "template"}
+{"message": "BLOUSE STITCHING", "category": "tailoring", "source": "template"}
+{"message": "need a tailor sunday evening, hsr", "category": "tailoring", "source": "template"}
+{"message": "party decoration", "category": "event_decor", "source": "template"}
+{"message": "hi, need a decorator sunday evening", "category": "event_decor", "source": "template"}
+{"message": "pls balloon decor in jayanagar", "category": "event_decor", "source": "template"}
+{"message": "EVENT SETUP HELP", "category": "event_decor", "source": "template"}
+{"message": "party decoration monday 10am, jayanagar", "category": "event_decor", "source": "template"}
+{"message": "need a photographer", "category": "photographer", "source": "template"}
+{"message": "hi, photoshoot booking monday 10am", "category": "photographer", "source": "template"}
+{"message": "pls videographer for event in Koramangala", "category": "photographer", "source": "template"}
+{"message": "PHOTO SHOOT", "category": "photographer", "source": "template"}
+{"message": "need a photographer tomorrow, hsr", "category": "photographer", "source": "template"}
+{"message": "need catering", "category": "catering", "source": "template"}
+{"message": "hi, caterer for party monday 10am", "category": "catering", "source": "template"}
+{"message": "pls bulk food order in btm", "category": "catering", "source": "template"}
+{"message": "TIFFIN SERVICE", "category": "catering", "source": "template"}
+{"message": "need catering tomorrow, Koramangala", "category": "catering", "source": "template"}
+{"message": "movie tickets", "category": "movie_tickets", "source": "template"}
+{"message": "hi, book cinema seats friday 7pm", "category": "movie_tickets", "source": "template"}
+{"message": "pls pvr show tickets in btm", "category": "movie_tickets", "source": "template"}
+{"message": "INOX BOOKING", "category": "movie_tickets", "source": "template"}
+{"message": "movie tickets monday 10am, hsr", "category": "movie_tickets", "source": "template"}
+{"message": "dog walker", "category": "pet_care", "source": "template"}
+{"message": "hi, pet sitter needed next week", "category": "pet_care", "source": "template"}
+{"message": "pls dog grooming in btm", "category": "pet_care", "source": "template"}
+{"message": "PUPPY CARE", "category": "pet_care", "source": "template"}
+{"message": "dog walker sunday evening, Koramangala", "category": "pet_care", "source": "template"}
+{"message": "need a tutor", "category": "tutoring", "source": "template"}
+{"message": "hi, home tuition monday 10am", "category": "tutoring", "source": "template"}
+{"message": "pls coaching for exams in hsr", "category": "tutoring", "source": "template"}
+{"message": "GUITAR CLASS", "category": "tutoring", "source": "template"}
+{"message": "need a tutor tonight, jayanagar", "category": "tutoring", "source": "template"}
+{"message": "laptop repair", "category": "gadget_repair", "source": "template"}
+{"message": "hi, mobile repair tomorrow", "category": "gadget_repair", "source": "template"}
+{"message": "pls phone screen replacement in Whitefield", "category": "gadget_repair", "source": "template"}
+{"message": "CHARGER NOT WORKING", "category": "gadget_repair", "source": "template"}
+{"message": "laptop repair saturday morning, Indiranagar", "category": "gadget_repair", "source": "template"}
+{"message": "fridge not cooling well", "category": "appliance_repair", "source": "template"}
+{"message": "hi, washing machine repair friday 7pm", "category": "appliance_repair", "source": "template"}
+{"message": "pls microwave broken in Indiranagar", "category": "appliance_repair", "source": "template"}
+{"message": "GEYSER REPAIR", "category": "appliance_repair", "source": "template"}
+{"message": "fridge not cooling well this weekend, Whitefield", "category": "appliance_repair", "source": "template"}
+{"message": "need packers and movers", "category": "packers_movers", "source": "template"}
+{"message": "hi, house shifting next week", "category": "packers_movers", "source": "template"}
+{"message": "pls relocation help in jp nagar", "category": "packers_movers", "source": "template"}
+{"message": "MOVERS FOR FLAT", "category": "packers_movers", "source": "template"}
+{"message": "need packers and movers monday 10am, Koramangala", "category": "packers_movers", "source": "template"}
+{"message": "wifi not working", "category": "wifi_internet", "source": "template"}
+{"message": "hi, broadband issue tonight", "category": "wifi_internet", "source": "template"}
+{"message": "pls router problem in Whitefield", "category": "wifi_internet", "source": "template"}
+{"message": "FIBRE CONNECTION FAULT", "category": "wifi_internet", "source": "template"}
+{"message": "wifi not working next week, jayanagar", "category": "wifi_internet", "source": "template"}
+{"message": "gas cylinder refill", "category": "gas_cylinder", "source": "template"}
+{"message": "hi, lpg booking friday 7pm", "category": "gas_cylinder", "source": "template"}
+{"message": "pls cylinder refill needed in Indiranagar", "category": "gas_cylinder", "source": "template"}
+{"message": "GAS BOOKING PLEASE", "category": "gas_cylinder", "source": "template"}
+{"message": "gas cylinder refill next week, jp nagar", "category": "gas_cylinder", "source": "template"}
+{"message": "pay my electricity bill", "category": "bill_payment", "source": "template"}
+{"message": "hi, recharge my phone friday 7pm", "category": "bill_payment", "source": "template"}
+{"message": "pls credit card bill payment in btm", "category": "bill_payment", "source": "template"}
+{"message": "EMI PAYMENT", "category": "bill_payment", "source": "template"}
+{"message": "pay my electricity bill next week, hsr", "category": "bill_payment", "source": "template"}
+{"message": "need a lawyer", "category": "legal_help", "source": "template"}
+{"message": "hi, legal notice help next week", "category": "legal_help", "source": "template"}
+{"message": "pls advocate for court case in Indiranagar", "category": "legal_help", "source": "template"}
+{"message": "AGREEMENT DRAFTING", "category": "legal_help", "source": "template"}
+{"message": "need a lawyer tonight, Koramangala", "category": "legal_help", "source": "template"}
+{"message": "insurance policy renewal", "category": "insurance_finance", "source": "template"}
+{"message": "hi, need help with loan tonight", "category": "insurance_finance", "source": "template"}
+{"message": "pls tax filing help in Indiranagar", "category": "insurance_finance", "source": "template"}
+{"message": "MUTUAL FUND ADVICE", "category": "insurance_finance", "source": "template"}
+{"message": "insurance policy renewal this weekend, btm", "category": "insurance_finance", "source": "template"}

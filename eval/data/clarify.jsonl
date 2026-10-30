@@ -1,0 +1,61 @@
+{"message": "Book a table for dinner", "category": "restaurant_booking", "expect_ask": true, "source": "handwritten"}
+{"message": "need a plumber", "category": "plumbing", "expect_ask": true, "source": "handwritten"}
+{"message": "ac not cooling", "category": "home_repair_ac", "expect_ask": true, "source": "handwritten"}
+{"message": "send flowers", "category": "gifting", "expect_ask": true, "source": "handwritten"}
+{"message": "need a cab", "category": "cab_booking", "expect_ask": true, "source": "handwritten"}
+{"message": "deep clean my house", "category": "house_cleaning", "expect_ask": true, "source": "handwritten"}
+{"message": "Need an electrician tomorrow", "category": "electrician", "expect_ask": true, "source": "handwritten"}
+{"message": "book flight tickets", "category": "travel_booking", "expect_ask": true, "source": "handwritten"}
+{"message": "catering needed", "category": "catering", "expect_ask": true, "source": "handwritten"}
+{"message": "order groceries", "category": "groceries", "expect_ask": true, "source": "handwritten"}
+{"message": "pest control please", "category": "pest_control", "expect_ask": true, "source": "handwritten"}
+{"message": "laundry pickup", "category": "laundry", "expect_ask": true, "source": "handwritten"}
+{"message": "need a photographer", "category": "photographer", "expect_ask": true, "source": "handwritten"}
+{"message": "table for 4 tonight", "category": "restaurant_booking", "expect_ask": true, "source": "handwritten"}
+{"message": "plumber in koramangala", "category": "plumbing", "expect_ask": true, "source": "handwritten"}
+{"message": "birthday gift for my sister", "category": "gifting", "expect_ask": true, "source": "handwritten"}
+{"message": "car service", "category": "car_service", "expect_ask": true, "source": "handwritten"}
+{"message": "painter needed", "category": "painting", "expect_ask": true, "source": "handwritten"}
+{"message": "courier a parcel", "category": "delivery_pickup", "expect_ask": true, "source": "handwritten"}
+{"message": "carpenter in HSR", "category": "carpentry", "expect_ask": true, "source": "handwritten"}
+{"message": "haircut at home", "category": "salon_at_home", "expect_ask": true, "source": "handwritten"}
+{"message": "movers needed", "category": "packers_movers", "expect_ask": true, "source": "handwritten"}
+{"message": "bike service tomorrow", "category": "bike_service", "expect_ask": true, "source": "handwritten"}
+{"message": "home tuition needed", "category": "tutoring", "expect_ask": true, "source": "handwritten"}
+{"message": "wifi not working", "category": "wifi_internet", "expect_ask": true, "source": "handwritten"}
+{"message": "Need an AC technician Saturday morning, Koramangala, under 1500", "category": "home_repair_ac", "expect_ask": false, "source": "handwritten"}
+{"message": "plumber tomorrow morning in HSR", "category": "plumbing", "expect_ask": false, "source": "handwritten"}
+{"message": "electrician friday 6pm Indiranagar", "category": "electrician", "expect_ask": false, "source": "handwritten"}
+{"message": "table for 4 saturday 8pm Indiranagar", "category": "restaurant_booking", "expect_ask": false, "source": "handwritten"}
+{"message": "cab tonight 11pm from Koramangala", "category": "cab_booking", "expect_ask": false, "source": "handwritten"}
+{"message": "milk and eggs to Jayanagar tomorrow", "category": "groceries", "expect_ask": false, "source": "handwritten"}
+{"message": "laundry pickup sunday morning, BTM", "category": "laundry", "expect_ask": false, "source": "handwritten"}
+{"message": "deep clean flat sunday HSR", "category": "house_cleaning", "expect_ask": false, "source": "handwritten"}
+{"message": "pest control saturday Whitefield", "category": "pest_control", "expect_ask": false, "source": "handwritten"}
+{"message": "car service monday 10am Koramangala", "category": "car_service", "expect_ask": false, "source": "handwritten"}
+{"message": "flight to Goa this weekend", "category": "travel_booking", "expect_ask": false, "source": "handwritten"}
+{"message": "gift for my mom saturday", "category": "gifting", "expect_ask": false, "source": "handwritten"}
+{"message": "carpenter tomorrow whitefield", "category": "carpentry", "expect_ask": false, "source": "handwritten"}
+{"message": "painter next week in JP Nagar", "category": "painting", "expect_ask": false, "source": "handwritten"}
+{"message": "bike service tomorrow BTM", "category": "bike_service", "expect_ask": false, "source": "handwritten"}
+{"message": "salon at home sunday 4pm Koramangala", "category": "salon_at_home", "expect_ask": false, "source": "handwritten"}
+{"message": "parcel pickup whitefield tonight", "category": "delivery_pickup", "expect_ask": false, "source": "handwritten"}
+{"message": "catering sunday for 30 people in HSR", "category": "catering", "expect_ask": false, "source": "handwritten"}
+{"message": "photographer this weekend whitefield 8000", "category": "photographer", "expect_ask": false, "source": "handwritten"}
+{"message": "movers 5th dec koramangala 15000", "category": "packers_movers", "expect_ask": false, "source": "handwritten"}
+{"message": "lpg cylinder refill jayanagar", "category": "gas_cylinder", "expect_ask": false, "source": "handwritten"}
+{"message": "dentist appointment toothache tomorrow", "category": "doctor_appointment", "expect_ask": false, "source": "handwritten"}
+{"message": "maths tutor evenings JP Nagar", "category": "tutoring", "expect_ask": false, "source": "handwritten"}
+{"message": "fridge repair tomorrow hsr", "category": "appliance_repair", "expect_ask": false, "source": "handwritten"}
+{"message": "decorator sunday koramangala under 5000", "category": "event_decor", "expect_ask": false, "source": "handwritten"}
+{"message": "yes please do it", "category": "unknown", "expect_ask": false, "source": "handwritten"}
+{"message": "need a plumber", "category": "plumbing", "expect_ask": true, "source": "template"}
+{"message": "need a plumber tomorrow in Koramangala", "category": "plumbing", "expect_ask": false, "source": "template"}
+{"message": "need an electrician", "category": "electrician", "expect_ask": true, "source": "template"}
+{"message": "short circuit in socket tonight in Koramangala", "category": "electrician", "expect_ask": false, "source": "template"}
+{"message": "need ac service", "category": "home_repair_ac", "expect_ask": true, "source": "template"}
+{"message": "air conditioner technician monday in Koramangala", "category": "home_repair_ac", "expect_ask": false, "source": "template"}
+{"message": "termite problem", "category": "pest_control", "expect_ask": true, "source": "template"}
+{"message": "pest control needed sunday in Koramangala", "category": "pest_control", "expect_ask": false, "source": "template"}
+{"message": "wardrobe fix", "category": "carpentry", "expect_ask": true, "source": "template"}
+{"message": "furniture repair friday in Koramangala", "category": "carpentry", "expect_ask": false, "source": "template"}

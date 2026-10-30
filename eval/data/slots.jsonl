@@ -1,0 +1,125 @@
+{"message": "Need an AC technician Saturday morning, Koramangala, under 1500", "category": "home_repair_ac", "gold": {"when": "saturday morning", "where": "Koramangala", "budget": "1500"}, "source": "handwritten"}
+{"message": "table for 4 friday 8pm indiranagar", "category": "restaurant_booking", "gold": {"when": "friday 8pm", "where": "Indiranagar", "party_size": "4"}, "source": "handwritten"}
+{"message": "book flight to Goa on 14 nov", "category": "travel_booking", "gold": {"destination": "Goa", "when": "14 nov"}, "source": "handwritten"}
+{"message": "plumber needed", "category": "plumbing", "gold": {}, "source": "handwritten"}
+{"message": "need milk and eggs at HSR tomorrow", "category": "groceries", "gold": {"item": "milk, eggs", "where": "HSR Layout", "when": "tomorrow"}, "source": "handwritten"}
+{"message": "gift for my dad, sunday, budget 3000", "category": "gifting", "gold": {"recipient": "dad", "when": "sunday", "budget": "3000"}, "source": "handwritten"}
+{"message": "cab tonight koramangala", "category": "cab_booking", "gold": {"when": "tonight", "where": "Koramangala"}, "source": "handwritten"}
+{"message": "book a dentist, toothache, tomorrow", "category": "doctor_appointment", "gold": {"issue": "toothache, dentist", "when": "tomorrow"}, "source": "handwritten"}
+{"message": "kal subah plumber chahiye jayanagar", "category": "plumbing", "gold": {"when": "tomorrow morning", "where": "Jayanagar"}, "source": "handwritten"}
+{"message": "electrician 1500 tak, indiranagar", "category": "electrician", "gold": {"where": "Indiranagar", "budget": "1500"}, "source": "handwritten"}
+{"message": "catering for 40 people sunday", "category": "catering", "gold": {"party_size": "40", "when": "sunday"}, "source": "handwritten"}
+{"message": "parcel pickup whitefield tonight", "category": "delivery_pickup", "gold": {"item": "parcel", "where": "Whitefield", "when": "tonight"}, "source": "handwritten"}
+{"message": "need a koramangla plumber tomorrow", "category": "plumbing", "gold": {"where": "Koramangala", "when": "tomorrow"}, "source": "handwritten"}
+{"message": "deep clean flat", "category": "house_cleaning", "gold": {}, "source": "handwritten"}
+{"message": "movers for 2bhk on 5th dec, around 15000", "category": "packers_movers", "gold": {"when": "5th dec", "budget": "15000"}, "source": "handwritten"}
+{"message": "need ac service tonight ₹1200 in Koramangala", "category": "home_repair_ac", "gold": {"when": "tonight", "where": "Koramangala", "budget": "1200"}, "source": "template"}
+{"message": "tap leak fix saturday morning in jp nagar", "category": "plumbing", "gold": {"when": "saturday morning", "where": "JP Nagar"}, "source": "template"}
+{"message": "short circuit in socket under 1500 in Whitefield tomorrow", "category": "electrician", "gold": {"when": "tomorrow", "where": "Whitefield", "budget": "1500"}, "source": "template"}
+{"message": "need a dinner reservation in jayanagar saturday morning under 1500", "category": "restaurant_booking", "gold": {"when": "saturday morning", "where": "Jayanagar", "budget": "1500"}, "source": "template"}
+{"message": "need groceries in Indiranagar", "category": "groceries", "gold": {"where": "Indiranagar"}, "source": "template"}
+{"message": "airport drop needed monday 10am in jp nagar", "category": "cab_booking", "gold": {"when": "monday 10am", "where": "JP Nagar"}, "source": "template"}
+{"message": "dhobi service within 800 tomorrow in btm", "category": "laundry", "gold": {"when": "tomorrow", "where": "BTM Layout", "budget": "800"}, "source": "template"}
+{"message": "house cleaning needed sunday evening in jayanagar", "category": "house_cleaning", "gold": {"when": "sunday evening", "where": "Jayanagar"}, "source": "template"}
+{"message": "car service needed friday 7pm in Indiranagar budget 2k", "category": "car_service", "gold": {"when": "friday 7pm", "where": "Indiranagar", "budget": "2000"}, "source": "template"}
+{"message": "need a decorator this weekend", "category": "event_decor", "gold": {"when": "this weekend"}, "source": "template"}
+{"message": "photoshoot booking monday 10am in Koramangala", "category": "photographer", "gold": {"when": "monday 10am", "where": "Koramangala"}, "source": "template"}
+{"message": "tiffin service sunday evening in btm", "category": "catering", "gold": {"when": "sunday evening", "where": "BTM Layout"}, "source": "template"}
+{"message": "need packers and movers in hsr this weekend ₹1200", "category": "packers_movers", "gold": {"when": "this weekend", "where": "HSR Layout", "budget": "1200"}, "source": "template"}
+{"message": "beautician visit in btm under 1500", "category": "salon_at_home", "gold": {"where": "BTM Layout", "budget": "1500"}, "source": "template"}
+{"message": "need ac service tonight around 5000 in btm", "category": "home_repair_ac", "gold": {"when": "tonight", "where": "BTM Layout", "budget": "5000"}, "source": "template"}
+{"message": "need a plumber in Indiranagar ₹1200", "category": "plumbing", "gold": {"where": "Indiranagar", "budget": "1200"}, "source": "template"}
+{"message": "wiring problem in hsr ₹1200 monday 10am", "category": "electrician", "gold": {"when": "monday 10am", "where": "HSR Layout", "budget": "1200"}, "source": "template"}
+{"message": "book a table at a nice restaurant for 3 budget 2k", "category": "restaurant_booking", "gold": {"budget": "2000", "party_size": "3"}, "source": "template"}
+{"message": "need groceries friday 7pm in jp nagar", "category": "groceries", "gold": {"when": "friday 7pm", "where": "JP Nagar"}, "source": "template"}
+{"message": "ride to the airport in btm around 5000", "category": "cab_booking", "gold": {"where": "BTM Layout", "budget": "5000"}, "source": "template"}
+{"message": "dry clean my clothes saturday morning", "category": "laundry", "gold": {"when": "saturday morning"}, "source": "template"}
+{"message": "house cleaning needed in Indiranagar", "category": "house_cleaning", "gold": {"where": "Indiranagar"}, "source": "template"}
+{"message": "car service needed in jayanagar sunday evening", "category": "car_service", "gold": {"when": "sunday evening", "where": "Jayanagar"}, "source": "template"}
+{"message": "party decoration in Koramangala friday 7pm", "category": "event_decor", "gold": {"when": "friday 7pm", "where": "Koramangala"}, "source": "template"}
+{"message": "need a photographer this weekend in Whitefield", "category": "photographer", "gold": {"when": "this weekend", "where": "Whitefield"}, "source": "template"}
+{"message": "caterer for party 6 people friday 7pm", "category": "catering", "gold": {"when": "friday 7pm", "party_size": "6"}, "source": "template"}
+{"message": "movers for flat under 1500 in btm monday 10am", "category": "packers_movers", "gold": {"when": "monday 10am", "where": "BTM Layout", "budget": "1500"}, "source": "template"}
+{"message": "salon at home in btm", "category": "salon_at_home", "gold": {"where": "BTM Layout"}, "source": "template"}
+{"message": "split ac repair needed tonight under 1500", "category": "home_repair_ac", "gold": {"when": "tonight", "budget": "1500"}, "source": "template"}
+{"message": "pipe leakage in bathroom this weekend in Whitefield", "category": "plumbing", "gold": {"when": "this weekend", "where": "Whitefield"}, "source": "template"}
+{"message": "ceiling fan not running sunday evening in btm within 800", "category": "electrician", "gold": {"when": "sunday evening", "where": "BTM Layout", "budget": "800"}, "source": "template"}
+{"message": "lunch table booking for 2 in jayanagar", "category": "restaurant_booking", "gold": {"where": "Jayanagar", "party_size": "2"}, "source": "template"}
+{"message": "order milk and eggs in hsr budget 2k", "category": "groceries", "gold": {"where": "HSR Layout", "budget": "2000"}, "source": "template"}
+{"message": "book taxi", "category": "cab_booking", "gold": {}, "source": "template"}
+{"message": "need ironing under 1500 monday 10am", "category": "laundry", "gold": {"when": "monday 10am", "budget": "1500"}, "source": "template"}
+{"message": "bathroom cleaning service in Koramangala", "category": "house_cleaning", "gold": {"where": "Koramangala"}, "source": "template"}
+{"message": "tyre change this weekend under 1500 in jp nagar", "category": "car_service", "gold": {"when": "this weekend", "where": "JP Nagar", "budget": "1500"}, "source": "template"}
+{"message": "balloon decor in Indiranagar saturday morning", "category": "event_decor", "gold": {"when": "saturday morning", "where": "Indiranagar"}, "source": "template"}
+{"message": "videographer for event this weekend", "category": "photographer", "gold": {"when": "this weekend"}, "source": "template"}
+{"message": "caterer for party tonight 2 people within 800 in jp nagar", "category": "catering", "gold": {"when": "tonight", "where": "JP Nagar", "budget": "800", "party_size": "2"}, "source": "template"}
+{"message": "house shifting in jp nagar", "category": "packers_movers", "gold": {"where": "JP Nagar"}, "source": "template"}
+{"message": "beautician visit budget 2k next week", "category": "salon_at_home", "gold": {"when": "next week", "budget": "2000"}, "source": "template"}
+{"message": "split ac repair needed in hsr tonight", "category": "home_repair_ac", "gold": {"when": "tonight", "where": "HSR Layout"}, "source": "template"}
+{"message": "need a plumber friday 7pm in Koramangala around 5000", "category": "plumbing", "gold": {"when": "friday 7pm", "where": "Koramangala", "budget": "5000"}, "source": "template"}
+{"message": "wiring problem saturday morning under 1500 in Indiranagar", "category": "electrician", "gold": {"when": "saturday morning", "where": "Indiranagar", "budget": "1500"}, "source": "template"}
+{"message": "table for brunch for 3 within 800 in Indiranagar", "category": "restaurant_booking", "gold": {"where": "Indiranagar", "budget": "800", "party_size": "3"}, "source": "template"}
+{"message": "need atta rice and bread under 1500 in Indiranagar friday 7pm", "category": "groceries", "gold": {"when": "friday 7pm", "where": "Indiranagar", "budget": "1500"}, "source": "template"}
+{"message": "need a cab in hsr budget 2k saturday morning", "category": "cab_booking", "gold": {"when": "saturday morning", "where": "HSR Layout", "budget": "2000"}, "source": "template"}
+{"message": "dhobi service", "category": "laundry", "gold": {}, "source": "template"}
+{"message": "sofa cleaning in Koramangala", "category": "house_cleaning", "gold": {"where": "Koramangala"}, "source": "template"}
+{"message": "car repair ₹1200", "category": "car_service", "gold": {"budget": "1200"}, "source": "template"}
+{"message": "party decoration in btm", "category": "event_decor", "gold": {"where": "BTM Layout"}, "source": "template"}
+{"message": "photoshoot booking saturday morning in hsr", "category": "photographer", "gold": {"when": "saturday morning", "where": "HSR Layout"}, "source": "template"}
+{"message": "tiffin service in btm 2 people within 800 saturday morning", "category": "catering", "gold": {"when": "saturday morning", "where": "BTM Layout", "budget": "800", "party_size": "2"}, "source": "template"}
+{"message": "movers for flat budget 2k tomorrow", "category": "packers_movers", "gold": {"when": "tomorrow", "budget": "2000"}, "source": "template"}
+{"message": "beautician visit in btm next week under 1500", "category": "salon_at_home", "gold": {"when": "next week", "where": "BTM Layout", "budget": "1500"}, "source": "template"}
+{"message": "my ac is not cooling in btm sunday evening", "category": "home_repair_ac", "gold": {"when": "sunday evening", "where": "BTM Layout"}, "source": "template"}
+{"message": "need a plumber monday 10am in btm budget 2k", "category": "plumbing", "gold": {"when": "monday 10am", "where": "BTM Layout", "budget": "2000"}, "source": "template"}
+{"message": "ceiling fan not running in Whitefield", "category": "electrician", "gold": {"where": "Whitefield"}, "source": "template"}
+{"message": "book a table at a nice restaurant in hsr", "category": "restaurant_booking", "gold": {"where": "HSR Layout"}, "source": "template"}
+{"message": "need groceries tomorrow", "category": "groceries", "gold": {"when": "tomorrow"}, "source": "template"}
+{"message": "ride to the airport under 1500 in Indiranagar", "category": "cab_booking", "gold": {"where": "Indiranagar", "budget": "1500"}, "source": "template"}
+{"message": "need ironing in jp nagar", "category": "laundry", "gold": {"where": "JP Nagar"}, "source": "template"}
+{"message": "sofa cleaning around 5000", "category": "house_cleaning", "gold": {"budget": "5000"}, "source": "template"}
+{"message": "car repair saturday morning", "category": "car_service", "gold": {"when": "saturday morning"}, "source": "template"}
+{"message": "event setup help within 800 in Whitefield tonight", "category": "event_decor", "gold": {"when": "tonight", "where": "Whitefield", "budget": "800"}, "source": "template"}
+{"message": "videographer for event in Indiranagar", "category": "photographer", "gold": {"where": "Indiranagar"}, "source": "template"}
+{"message": "bulk food order 6 people tomorrow in jp nagar", "category": "catering", "gold": {"when": "tomorrow", "where": "JP Nagar", "party_size": "6"}, "source": "template"}
+{"message": "relocation help friday 7pm within 800 in Indiranagar", "category": "packers_movers", "gold": {"when": "friday 7pm", "where": "Indiranagar", "budget": "800"}, "source": "template"}
+{"message": "haircut at home", "category": "salon_at_home", "gold": {}, "source": "template"}
+{"message": "my ac is not cooling in jayanagar", "category": "home_repair_ac", "gold": {"where": "Jayanagar"}, "source": "template"}
+{"message": "need a plumber within 800 next week in jp nagar", "category": "plumbing", "gold": {"when": "next week", "where": "JP Nagar", "budget": "800"}, "source": "template"}
+{"message": "wiring problem within 800 next week in hsr", "category": "electrician", "gold": {"when": "next week", "where": "HSR Layout", "budget": "800"}, "source": "template"}
+{"message": "table for brunch next week budget 2k for 6 in btm", "category": "restaurant_booking", "gold": {"when": "next week", "where": "BTM Layout", "budget": "2000", "party_size": "6"}, "source": "template"}
+{"message": "need atta rice and bread under 1500 this weekend in Indiranagar", "category": "groceries", "gold": {"when": "this weekend", "where": "Indiranagar", "budget": "1500"}, "source": "template"}
+{"message": "airport drop needed this weekend", "category": "cab_booking", "gold": {"when": "this weekend"}, "source": "template"}
+{"message": "dhobi service this weekend in hsr", "category": "laundry", "gold": {"when": "this weekend", "where": "HSR Layout"}, "source": "template"}
+{"message": "sofa cleaning in jayanagar sunday evening", "category": "house_cleaning", "gold": {"when": "sunday evening", "where": "Jayanagar"}, "source": "template"}
+{"message": "car service needed this weekend in btm", "category": "car_service", "gold": {"when": "this weekend", "where": "BTM Layout"}, "source": "template"}
+{"message": "party decoration next week", "category": "event_decor", "gold": {"when": "next week"}, "source": "template"}
+{"message": "photo shoot in Koramangala ₹1200", "category": "photographer", "gold": {"where": "Koramangala", "budget": "1200"}, "source": "template"}
+{"message": "tiffin service tomorrow in Indiranagar 12 people", "category": "catering", "gold": {"when": "tomorrow", "where": "Indiranagar", "party_size": "12"}, "source": "template"}
+{"message": "need packers and movers saturday morning in Indiranagar under 1500", "category": "packers_movers", "gold": {"when": "saturday morning", "where": "Indiranagar", "budget": "1500"}, "source": "template"}
+{"message": "haircut at home in Koramangala next week within 800", "category": "salon_at_home", "gold": {"when": "next week", "where": "Koramangala", "budget": "800"}, "source": "template"}
+{"message": "air conditioner technician saturday morning in hsr", "category": "home_repair_ac", "gold": {"when": "saturday morning", "where": "HSR Layout"}, "source": "template"}
+{"message": "drain is clogged in Indiranagar this weekend", "category": "plumbing", "gold": {"when": "this weekend", "where": "Indiranagar"}, "source": "template"}
+{"message": "short circuit in socket around 5000 in Koramangala", "category": "electrician", "gold": {"where": "Koramangala", "budget": "5000"}, "source": "template"}
+{"message": "table for brunch next week for 12 under 1500", "category": "restaurant_booking", "gold": {"when": "next week", "budget": "1500", "party_size": "12"}, "source": "template"}
+{"message": "need atta rice and bread friday 7pm", "category": "groceries", "gold": {"when": "friday 7pm"}, "source": "template"}
+{"message": "book taxi around 5000 in jp nagar this weekend", "category": "cab_booking", "gold": {"when": "this weekend", "where": "JP Nagar", "budget": "5000"}, "source": "template"}
+{"message": "need ironing in Indiranagar monday 10am", "category": "laundry", "gold": {"when": "monday 10am", "where": "Indiranagar"}, "source": "template"}
+{"message": "deep clean my flat in Koramangala", "category": "house_cleaning", "gold": {"where": "Koramangala"}, "source": "template"}
+{"message": "car wash please saturday morning in Whitefield", "category": "car_service", "gold": {"when": "saturday morning", "where": "Whitefield"}, "source": "template"}
+{"message": "party decoration budget 2k", "category": "event_decor", "gold": {"budget": "2000"}, "source": "template"}
+{"message": "photo shoot next week", "category": "photographer", "gold": {"when": "next week"}, "source": "template"}
+{"message": "tiffin service saturday morning under 1500 in Koramangala 3 people", "category": "catering", "gold": {"when": "saturday morning", "where": "Koramangala", "budget": "1500", "party_size": "3"}, "source": "template"}
+{"message": "movers for flat in jayanagar monday 10am", "category": "packers_movers", "gold": {"when": "monday 10am", "where": "Jayanagar"}, "source": "template"}
+{"message": "facial and waxing around 5000 in Whitefield monday 10am", "category": "salon_at_home", "gold": {"when": "monday 10am", "where": "Whitefield", "budget": "5000"}, "source": "template"}
+{"message": "my ac is not cooling saturday morning ₹1200 in btm", "category": "home_repair_ac", "gold": {"when": "saturday morning", "where": "BTM Layout", "budget": "1200"}, "source": "template"}
+{"message": "drain is clogged saturday morning in btm", "category": "plumbing", "gold": {"when": "saturday morning", "where": "BTM Layout"}, "source": "template"}
+{"message": "ceiling fan not running tomorrow around 5000 in Indiranagar", "category": "electrician", "gold": {"when": "tomorrow", "where": "Indiranagar", "budget": "5000"}, "source": "template"}
+{"message": "lunch table booking within 800 in Whitefield", "category": "restaurant_booking", "gold": {"where": "Whitefield", "budget": "800"}, "source": "template"}
+{"message": "order milk and eggs in jp nagar sunday evening", "category": "groceries", "gold": {"when": "sunday evening", "where": "JP Nagar"}, "source": "template"}
+{"message": "book taxi tonight in Koramangala", "category": "cab_booking", "gold": {"when": "tonight", "where": "Koramangala"}, "source": "template"}
+{"message": "need ironing next week", "category": "laundry", "gold": {"when": "next week"}, "source": "template"}
+{"message": "sofa cleaning this weekend in Whitefield", "category": "house_cleaning", "gold": {"when": "this weekend", "where": "Whitefield"}, "source": "template"}
+{"message": "car wash please in btm next week ₹1200", "category": "car_service", "gold": {"when": "next week", "where": "BTM Layout", "budget": "1200"}, "source": "template"}
+{"message": "balloon decor in btm around 5000 friday 7pm", "category": "event_decor", "gold": {"when": "friday 7pm", "where": "BTM Layout", "budget": "5000"}, "source": "template"}
+{"message": "photoshoot booking friday 7pm", "category": "photographer", "gold": {"when": "friday 7pm"}, "source": "template"}
+{"message": "bulk food order friday 7pm 2 people", "category": "catering", "gold": {"when": "friday 7pm", "party_size": "2"}, "source": "template"}

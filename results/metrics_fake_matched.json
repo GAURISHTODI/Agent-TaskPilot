@@ -1,0 +1,66 @@
+{
+  "intents": {
+    "n": 30,
+    "accuracy": 0.9,
+    "accuracy_handwritten": 0.9,
+    "n_handwritten": 30,
+    "accuracy_template": 0.0,
+    "n_template": 0,
+    "top_confusions": [
+      [
+        "electrician",
+        "unknown",
+        1
+      ],
+      [
+        "catering",
+        "unknown",
+        1
+      ],
+      [
+        "laundry",
+        "unknown",
+        1
+      ]
+    ]
+  },
+  "slots": {
+    "n": 15,
+    "precision": 1.0,
+    "recall": 0.9032,
+    "f1": 0.9491,
+    "f1_handwritten": 0.9491,
+    "f1_template": 0.0
+  },
+  "risk": {
+    "n": 30,
+    "recall": 1.0,
+    "precision": 1.0,
+    "false_positives": 0,
+    "false_negatives": 0
+  },
+  "_perf": {
+    "latency_ms_p50": 0.63,
+    "latency_ms_p95": 1.5,
+    "per_step_p50_ms": {
+      "classify": 1.08,
+      "extract": 0.34,
+      "risk": 0.06
+    }
+  },
+  "meta": {
+    "git_sha": "no-git",
+    "dataset_version": "v1",
+    "run_timestamp_utc": "2026-10-30T06:05:38+00:00",
+    "provider": "fake",
+    "llm_is_real": false,
+    "temperature": 0,
+    "model_small": "fake-small",
+    "model_large": "fake-large",
+    "routing": "small for classify/extract/risk/clarify/parse, large for plan/draft",
+    "subset": "handwritten",
+    "limit_per_dataset": 30,
+    "suites": "intents,slots,risk",
+    "caveat": "Synthetic data. Provider 'fake' is a deterministic rule-based stub: these numbers measure the pipeline and guardrails, not a real LLM."
+  }
+}

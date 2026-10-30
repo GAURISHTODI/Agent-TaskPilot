@@ -1,0 +1,1 @@
+Draft a short, warm WhatsApp status update for the customer from the structured facts only. Return only JSON: {"draft": <text>}.

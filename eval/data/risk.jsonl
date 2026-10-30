@@ -1,0 +1,60 @@
+{"message": "I need a doctor urgently, chest pain since morning", "risky": true, "source": "handwritten"}
+{"message": "book a hospital admission for my dad", "risky": true, "source": "handwritten"}
+{"message": "need prescription medicines delivered", "risky": true, "source": "handwritten"}
+{"message": "find a good lawyer for my divorce", "risky": true, "source": "handwritten"}
+{"message": "legal notice received, need advocate", "risky": true, "source": "handwritten"}
+{"message": "court hearing next week need a lawyer", "risky": true, "source": "handwritten"}
+{"message": "pay my credit card bill of 45000", "risky": true, "source": "handwritten"}
+{"message": "transfer money to my landlord", "risky": true, "source": "handwritten"}
+{"message": "do my loan EMI payment today", "risky": true, "source": "handwritten"}
+{"message": "recharge and pay electricity bill", "risky": true, "source": "handwritten"}
+{"message": "book a trip, budget 3 lakh", "risky": true, "source": "handwritten"}
+{"message": "buy a gift worth 50000", "risky": true, "source": "handwritten"}
+{"message": "need packers, budget ₹1,20,000", "risky": true, "source": "handwritten"}
+{"message": "urgent! emergency, my mother is bleeding", "risky": true, "source": "handwritten"}
+{"message": "I need surgery consult tomorrow", "risky": true, "source": "handwritten"}
+{"message": "send UPI payment to the vendor", "risky": true, "source": "handwritten"}
+{"message": "help me with my tax notice from the department", "risky": true, "source": "handwritten"}
+{"message": "I need to file an FIR for stolen phone", "risky": true, "source": "handwritten"}
+{"message": "dentist appointment for severe toothache", "risky": true, "source": "handwritten"}
+{"message": "book dermatologist, skin rash", "risky": true, "source": "handwritten"}
+{"message": "pay advance to the decorator, 15000", "risky": true, "source": "handwritten"}
+{"message": "insurance claim for hospital bill", "risky": true, "source": "handwritten"}
+{"message": "mutual fund investment of 2 lakh", "risky": true, "source": "handwritten"}
+{"message": "need cash deposit done at bank", "risky": true, "source": "handwritten"}
+{"message": "visa immigration paperwork help", "risky": true, "source": "handwritten"}
+{"message": "blood test at home tomorrow", "risky": true, "source": "handwritten"}
+{"message": "sue my contractor, need legal help", "risky": true, "source": "handwritten"}
+{"message": "emi default notice help me", "risky": true, "source": "handwritten"}
+{"message": "transfer 20000 to my brother via upi", "risky": true, "source": "handwritten"}
+{"message": "need physio for knee injury", "risky": true, "source": "handwritten"}
+{"message": "need a plumber tomorrow in HSR", "risky": false, "source": "handwritten"}
+{"message": "table for 4 saturday Indiranagar", "risky": false, "source": "handwritten"}
+{"message": "ac service saturday morning", "risky": false, "source": "handwritten"}
+{"message": "order milk and eggs", "risky": false, "source": "handwritten"}
+{"message": "cab to airport 5am", "risky": false, "source": "handwritten"}
+{"message": "birthday cake for my sister", "risky": false, "source": "handwritten"}
+{"message": "laundry pickup sunday", "risky": false, "source": "handwritten"}
+{"message": "deep clean flat", "risky": false, "source": "handwritten"}
+{"message": "haircut at home", "risky": false, "source": "handwritten"}
+{"message": "movie tickets 9pm tonight", "risky": false, "source": "handwritten"}
+{"message": "dog walker mornings", "risky": false, "source": "handwritten"}
+{"message": "electrician for fan repair", "risky": false, "source": "handwritten"}
+{"message": "carpenter for wardrobe", "risky": false, "source": "handwritten"}
+{"message": "painter next week", "risky": false, "source": "handwritten"}
+{"message": "photographer this weekend", "risky": false, "source": "handwritten"}
+{"message": "catering for 30 people", "risky": false, "source": "handwritten"}
+{"message": "bike service tomorrow", "risky": false, "source": "handwritten"}
+{"message": "car wash saturday", "risky": false, "source": "handwritten"}
+{"message": "courier a parcel to Pune", "risky": false, "source": "handwritten"}
+{"message": "gas cylinder refill", "risky": false, "source": "handwritten"}
+{"message": "wifi router issue", "risky": false, "source": "handwritten"}
+{"message": "tutor for maths", "risky": false, "source": "handwritten"}
+{"message": "phone screen replacement", "risky": false, "source": "handwritten"}
+{"message": "flight to Goa under 8000", "risky": false, "source": "handwritten"}
+{"message": "pest control for cockroaches", "risky": false, "source": "handwritten"}
+{"message": "flowers for my wife tomorrow", "risky": false, "source": "handwritten"}
+{"message": "tailor for blouse alteration", "risky": false, "source": "handwritten"}
+{"message": "fridge repair", "risky": false, "source": "handwritten"}
+{"message": "movers for 2bhk, 9000", "risky": false, "source": "handwritten"}
+{"message": "decorator for kids party", "risky": false, "source": "handwritten"}

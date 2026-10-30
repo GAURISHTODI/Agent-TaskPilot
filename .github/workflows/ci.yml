@@ -1,0 +1,20 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: pip install -r requirements.txt
+      - run: ruff check .
+      - run: pytest -q
+      - name: Eval (writes results/metrics.json on a clean checkout) + regression gate
+        run: python eval/run_eval.py --compare --gate
+      - name: 3-run reproducibility check
+        run: python eval/check_reproducibility.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: results/

@@ -1,0 +1,187 @@
+[
+  {
+    "suite": "intents",
+    "message": "bijli ka kaam hai, light kharab hai bedroom ki",
+    "gold": "electrician",
+    "pred": "home_repair_ac",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "Need milk, eggs and bread delivered to Jayanagar by 8am",
+    "gold": "groceries",
+    "pred": "delivery_pickup",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "driving licence renewal at RTO, can you handle it",
+    "gold": "personal_admin",
+    "pred": "legal_help",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "catering for 40 people on Sunday lunch",
+    "gold": "catering",
+    "pred": "restaurant_booking",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "phone screen cracked, need replacement in Koramangala",
+    "gold": "gadget_repair",
+    "pred": "plumbing",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "LPG cylinder refill pls, Jayanagar",
+    "gold": "gas_cylinder",
+    "pred": "home_repair_ac",
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "table for 4 friday 8pm indiranagar",
+    "field": "when",
+    "gold": "friday 8pm",
+    "pred": "friday",
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "book flight to Goa on 14 nov",
+    "field": "where",
+    "gold": null,
+    "pred": "Goa",
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "need milk and eggs at HSR tomorrow",
+    "field": "item",
+    "gold": "milk, eggs",
+    "pred": "milk and eggs",
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "gift for my dad, sunday, budget 3000",
+    "field": "recipient",
+    "gold": "dad",
+    "pred": "my dad",
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "book a dentist, toothache, tomorrow",
+    "field": "issue",
+    "gold": "toothache, dentist",
+    "pred": "toothache",
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "kal subah plumber chahiye jayanagar",
+    "field": "when",
+    "gold": "tomorrow morning",
+    "pred": null,
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "parcel pickup whitefield tonight",
+    "field": "item",
+    "gold": "parcel",
+    "pred": null,
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "need a koramangla plumber tomorrow",
+    "field": "when",
+    "gold": "tomorrow",
+    "pred": null,
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "deep clean flat",
+    "field": "where",
+    "gold": null,
+    "pred": "flat",
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "movers for 2bhk on 5th dec, around 15000",
+    "field": "where",
+    "gold": null,
+    "pred": "null",
+    "source": "handwritten"
+  },
+  {
+    "suite": "risk",
+    "message": "need a plumber tomorrow in HSR",
+    "gold": false,
+    "score": 0.9,
+    "reasons": [
+      "payment"
+    ]
+  },
+  {
+    "suite": "risk",
+    "message": "ac service saturday morning",
+    "gold": false,
+    "score": 1.0,
+    "reasons": [
+      "payment"
+    ]
+  },
+  {
+    "suite": "risk",
+    "message": "cab to airport 5am",
+    "gold": false,
+    "score": 0.9,
+    "reasons": [
+      "payment"
+    ]
+  },
+  {
+    "suite": "risk",
+    "message": "bike service tomorrow",
+    "gold": false,
+    "score": 0.9,
+    "reasons": [
+      "payment"
+    ]
+  },
+  {
+    "suite": "risk",
+    "message": "phone screen replacement",
+    "gold": false,
+    "score": 0.9,
+    "reasons": [
+      "payment"
+    ]
+  },
+  {
+    "suite": "risk",
+    "message": "tailor for blouse alteration",
+    "gold": false,
+    "score": 0.9,
+    "reasons": [
+      "legal"
+    ]
+  },
+  {
+    "suite": "risk",
+    "message": "movers for 2bhk, 9000",
+    "gold": false,
+    "score": 0.9,
+    "reasons": [
+      "payment"
+    ]
+  }
+]

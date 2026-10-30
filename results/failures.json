@@ -1,0 +1,146 @@
+[
+  {
+    "suite": "intents",
+    "message": "bijli ka kaam hai, light kharab hai bedroom ki",
+    "gold": "electrician",
+    "pred": "unknown",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "sabzi aur doodh chahiye kal subah",
+    "gold": "groceries",
+    "pred": "unknown",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "help me renew my passport, need appointment next week",
+    "gold": "personal_admin",
+    "pred": "unknown",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "catering for 40 people on Sunday lunch",
+    "gold": "catering",
+    "pred": "unknown",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "my wash is piling up, someone to take clothes",
+    "gold": "laundry",
+    "pred": "unknown",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "want to plan something special for our 5th year together",
+    "gold": "gifting",
+    "pred": "unknown",
+    "source": "handwritten"
+  },
+  {
+    "suite": "intents",
+    "message": "bathroom cleanning service",
+    "gold": "house_cleaning",
+    "pred": "unknown",
+    "source": "template"
+  },
+  {
+    "suite": "intents",
+    "message": "fridge not cooling well",
+    "gold": "appliance_repair",
+    "pred": "home_repair_ac",
+    "source": "template"
+  },
+  {
+    "suite": "intents",
+    "message": "fridge not cooling well this weekend, Whitefield",
+    "gold": "appliance_repair",
+    "pred": "home_repair_ac",
+    "source": "template"
+  },
+  {
+    "suite": "slots",
+    "message": "kal subah plumber chahiye jayanagar",
+    "field": "when",
+    "gold": "tomorrow morning",
+    "pred": null,
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "electrician 1500 tak, indiranagar",
+    "field": "budget",
+    "gold": "1500",
+    "pred": null,
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "need a koramangla plumber tomorrow",
+    "field": "where",
+    "gold": "Koramangala",
+    "pred": null,
+    "source": "handwritten"
+  },
+  {
+    "suite": "slots",
+    "message": "order milk and eggs in hsr budget 2k",
+    "field": "item",
+    "gold": null,
+    "pred": "milk, eggs",
+    "source": "template"
+  },
+  {
+    "suite": "slots",
+    "message": "need atta rice and bread under 1500 in Indiranagar friday 7pm",
+    "field": "item",
+    "gold": null,
+    "pred": "atta, rice, bread",
+    "source": "template"
+  },
+  {
+    "suite": "slots",
+    "message": "need atta rice and bread under 1500 this weekend in Indiranagar",
+    "field": "item",
+    "gold": null,
+    "pred": "atta, rice, bread",
+    "source": "template"
+  },
+  {
+    "suite": "slots",
+    "message": "need atta rice and bread friday 7pm",
+    "field": "item",
+    "gold": null,
+    "pred": "atta, rice, bread",
+    "source": "template"
+  },
+  {
+    "suite": "slots",
+    "message": "order milk and eggs in jp nagar sunday evening",
+    "field": "item",
+    "gold": null,
+    "pred": "milk, eggs",
+    "source": "template"
+  },
+  {
+    "suite": "risk",
+    "message": "buy a gift worth 50000",
+    "gold": true,
+    "score": 0.1,
+    "reasons": []
+  },
+  {
+    "suite": "clarify",
+    "message": "photographer this weekend whitefield 8000",
+    "problem": "unnecessary_question"
+  },
+  {
+    "suite": "clarify",
+    "message": "movers 5th dec koramangala 15000",
+    "problem": "unnecessary_question"
+  }
+]

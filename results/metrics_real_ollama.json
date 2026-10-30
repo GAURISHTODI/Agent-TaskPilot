@@ -1,0 +1,149 @@
+{
+  "intents": {
+    "n": 30,
+    "accuracy": 0.8,
+    "accuracy_handwritten": 0.8,
+    "n_handwritten": 30,
+    "accuracy_template": 0.0,
+    "n_template": 0,
+    "top_confusions": [
+      [
+        "electrician",
+        "home_repair_ac",
+        1
+      ],
+      [
+        "groceries",
+        "delivery_pickup",
+        1
+      ],
+      [
+        "personal_admin",
+        "legal_help",
+        1
+      ],
+      [
+        "catering",
+        "restaurant_booking",
+        1
+      ],
+      [
+        "gadget_repair",
+        "plumbing",
+        1
+      ],
+      [
+        "gas_cylinder",
+        "home_repair_ac",
+        1
+      ]
+    ]
+  },
+  "slots": {
+    "n": 15,
+    "precision": 0.7742,
+    "recall": 0.7742,
+    "f1": 0.7742,
+    "f1_handwritten": 0.7742,
+    "f1_template": 0.0
+  },
+  "risk": {
+    "n": 30,
+    "recall": 1.0,
+    "precision": 0.6818,
+    "false_positives": 7,
+    "false_negatives": 0
+  },
+  "_perf": {
+    "latency_ms_p50": 3876.5,
+    "latency_ms_p95": 4437.49,
+    "per_step_p50_ms": {
+      "classify": 4244.35,
+      "extract": 3626.24,
+      "risk": 3222.73
+    }
+  },
+  "meta": {
+    "git_sha": "no-git",
+    "dataset_version": "v1",
+    "run_timestamp_utc": "2026-10-30T05:55:19+00:00",
+    "provider": "ollama",
+    "llm_is_real": true,
+    "temperature": 0,
+    "model_small": "qwen2.5:1.5b",
+    "model_large": "qwen2.5:3b",
+    "routing": "small for classify/extract/risk/clarify/parse, large for plan/draft",
+    "subset": "handwritten",
+    "limit_per_dataset": "30 for intents/slots/risk (slots has 15 hand-written rows), 6 for trap/injection",
+    "suites": "intents,slots,risk (limit 30) + trap,injection (limit 6)",
+    "caveat": "Synthetic data.",
+    "e2e_run_timestamp_utc": "2026-10-30T06:13:09+00:00"
+  },
+  "vendor_trap": {
+    "n": 6,
+    "hallucinated_vendors_or_prices": 0,
+    "draft_gate_fallbacks": 0,
+    "no_vendor_escalations": 0
+  },
+  "injection": {
+    "full_stack": {
+      "n": 5,
+      "pass_rate": 1.0,
+      "failures": 0,
+      "detected_rate": 0.8,
+      "not_evaluable": 1,
+      "by_surface": {
+        "customer_text": {
+          "n": 4,
+          "pass": 4,
+          "detected": 4,
+          "not_evaluable": 0
+        },
+        "vendor_reply": {
+          "n": 0,
+          "pass": 0,
+          "detected": 0,
+          "not_evaluable": 1
+        },
+        "vendor_name": {
+          "n": 1,
+          "pass": 1,
+          "detected": 0,
+          "not_evaluable": 0
+        }
+      }
+    },
+    "gate_only_scanner_off": {
+      "n": 5,
+      "pass_rate": 1.0,
+      "failures": 0,
+      "detected_rate": 0.0,
+      "not_evaluable": 1,
+      "by_surface": {
+        "customer_text": {
+          "n": 4,
+          "pass": 4,
+          "detected": 0,
+          "not_evaluable": 0
+        },
+        "vendor_reply": {
+          "n": 0,
+          "pass": 0,
+          "detected": 0,
+          "not_evaluable": 1
+        },
+        "vendor_name": {
+          "n": 1,
+          "pass": 1,
+          "detected": 0,
+          "not_evaluable": 0
+        }
+      }
+    }
+  },
+  "cost": {
+    "avg_llm_cost_per_task_inr": 0.0,
+    "tasks": 6,
+    "escalation_rate": 1.0
+  }
+}

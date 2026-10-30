@@ -1,0 +1,96 @@
+{
+  "vendor_trap": {
+    "n": 6,
+    "hallucinated_vendors_or_prices": 0,
+    "draft_gate_fallbacks": 1,
+    "no_vendor_escalations": 2
+  },
+  "injection": {
+    "full_stack": {
+      "n": 6,
+      "pass_rate": 1.0,
+      "failures": 0,
+      "detected_rate": 1.0,
+      "not_evaluable": 0,
+      "by_surface": {
+        "customer_text": {
+          "n": 4,
+          "pass": 4,
+          "detected": 4,
+          "not_evaluable": 0
+        },
+        "vendor_reply": {
+          "n": 1,
+          "pass": 1,
+          "detected": 1,
+          "not_evaluable": 0
+        },
+        "vendor_name": {
+          "n": 1,
+          "pass": 1,
+          "detected": 1,
+          "not_evaluable": 0
+        }
+      }
+    },
+    "gate_only_scanner_off": {
+      "n": 6,
+      "pass_rate": 1.0,
+      "failures": 0,
+      "detected_rate": 0.6667,
+      "not_evaluable": 0,
+      "by_surface": {
+        "customer_text": {
+          "n": 4,
+          "pass": 4,
+          "detected": 3,
+          "not_evaluable": 0
+        },
+        "vendor_reply": {
+          "n": 1,
+          "pass": 1,
+          "detected": 1,
+          "not_evaluable": 0
+        },
+        "vendor_name": {
+          "n": 1,
+          "pass": 1,
+          "detected": 0,
+          "not_evaluable": 0
+        }
+      }
+    }
+  },
+  "cost": {
+    "avg_llm_cost_per_task_inr": 0.1793,
+    "tasks": 6,
+    "escalation_rate": 0.5
+  },
+  "_perf": {
+    "latency_ms_p50": 0.25,
+    "latency_ms_p95": 3.75,
+    "per_step_p50_ms": {
+      "classify": 1.47,
+      "extract": 0.4,
+      "risk": 0.09,
+      "clarify": 0.05,
+      "plan": 0.11,
+      "polish": 0.19
+    }
+  },
+  "meta": {
+    "git_sha": "no-git",
+    "dataset_version": "v1",
+    "run_timestamp_utc": "2026-10-30T06:05:43+00:00",
+    "provider": "fake",
+    "llm_is_real": false,
+    "temperature": 0,
+    "model_small": "fake-small",
+    "model_large": "fake-large",
+    "routing": "small for classify/extract/risk/clarify/parse, large for plan/draft",
+    "subset": "handwritten",
+    "limit_per_dataset": 6,
+    "suites": "trap,injection",
+    "caveat": "Synthetic data. Provider 'fake' is a deterministic rule-based stub: these numbers measure the pipeline and guardrails, not a real LLM."
+  }
+}
