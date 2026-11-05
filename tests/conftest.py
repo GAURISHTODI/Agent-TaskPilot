@@ -1,4 +1,8 @@
-import pytest
+import os
+
+os.environ.setdefault("LLM_PROVIDER", "fake")  # tests are deterministic; the app itself defaults to the real local model
+
+import pytest  # noqa: E402
 from sqlalchemy.orm import sessionmaker
 
 from app.db import models  # noqa: F401

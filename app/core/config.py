@@ -5,7 +5,7 @@ from dataclasses import dataclass
 @dataclass
 class Settings:
     database_url: str = os.getenv("DATABASE_URL", "sqlite:///./taskpilot.db")
-    llm_provider: str = os.getenv("LLM_PROVIDER", "fake")  # fake | anthropic
+    llm_provider: str = os.getenv("LLM_PROVIDER", "ollama")  # ollama (default, real local model) | anthropic | fake (tests/CI only)
     llm_model_small: str = os.getenv("LLM_MODEL_SMALL", "fake-small")
     llm_model_large: str = os.getenv("LLM_MODEL_LARGE", "fake-large")
     task_cost_cap_inr: float = float(os.getenv("TASK_COST_CAP_INR", "5.0"))

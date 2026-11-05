@@ -5,9 +5,9 @@ import re
 from app.agents.runner import Runner, StepFailed
 from app.agents.schemas import ClarifyOut, ClassifyOut, DraftOut, JudgeOut, PlanOut, ReplyOut, RiskOut
 from app.agents.taxonomy import BY_NAME, CATEGORIES, SLOT_QUESTIONS, slot_model
+from app.core.areas import AREAS
 from app.core.config import settings
 from app.guards.validators import validate_draft
-from app.llm.fake import AREAS
 
 # ---------------- classifier / extractor / clarifier ----------------
 
@@ -107,6 +107,9 @@ def score_risk(r: Runner, text: str, category: str | None, budget: str | None,
     try:
         second = r.run("risk", {"untrusted_message": text, "category": category}, RiskOut, "small")
         valid = [x for x in second.reasons if x.strip().lower().replace(" ", "_") in RISK_VOCAB]
+        # "high_spend" is objectively checkable: ignore it unless the text/budget actually shows a large amount
+        if not any(w == "high_spend" for w in reasons):
+            valid = [x for x in valid if x.strip().lower() != "high_spend"]
         if valid:  # a second opinion must justify itself with a known risk reason, else it is ignored
             score = max(score, second.risk)
             reasons += valid

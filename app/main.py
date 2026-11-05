@@ -8,6 +8,7 @@ from pydantic import BaseModel
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
+from app.core.config import settings
 from app.db import models  # noqa: F401  (register tables)
 from app.db.models import Approval, AuditLog, Customer, CustomerUpdate, Message, Task, Vendor, VendorOutreach
 from app.db.seed import seed
@@ -58,6 +59,13 @@ class VendorReply(BaseModel):
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+@app.get("/llm-info")
+def llm_info(request: Request):
+    inner = request.app.state.llm.inner
+    names = getattr(inner, "models", None) or {"small": "stub", "large": "stub"}
+    return {"provider": settings.llm_provider, "models": names}
 
 
 @app.get("/", include_in_schema=False)

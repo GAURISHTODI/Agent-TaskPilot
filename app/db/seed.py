@@ -5,9 +5,9 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.agents.taxonomy import CATEGORIES
+from app.core.areas import AREAS
 from app.db.models import Category, Customer, Vendor, VendorArea, VendorCategory
 from app.guards.redaction import hash_phone
-from app.llm.fake import AREAS
 
 AREA_LIST = sorted(set(AREAS.values()))
 CORE_AREAS = ["Koramangala", "Indiranagar", "HSR Layout", "Whitefield", "Jayanagar", "BTM Layout", "JP Nagar", "Marathahalli"]

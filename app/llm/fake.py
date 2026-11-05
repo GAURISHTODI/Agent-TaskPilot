@@ -17,16 +17,9 @@ import re
 import time
 
 from app.agents.taxonomy import BY_NAME, CATEGORIES
+from app.core.areas import AREAS
 from app.llm.base import LLMResponse, est_tokens, price_for
 
-AREAS = {
-    "koramangala": "Koramangala", "indiranagar": "Indiranagar", "hsr layout": "HSR Layout", "hsr": "HSR Layout",
-    "whitefield": "Whitefield", "jayanagar": "Jayanagar", "jp nagar": "JP Nagar", "btm layout": "BTM Layout",
-    "btm": "BTM Layout", "marathahalli": "Marathahalli", "electronic city": "Electronic City",
-    "malleshwaram": "Malleshwaram", "bellandur": "Bellandur", "hebbal": "Hebbal", "yelahanka": "Yelahanka",
-    "banashankari": "Banashankari", "sarjapur": "Sarjapur Road", "mg road": "MG Road",
-    "rajajinagar": "Rajajinagar", "basavanagudi": "Basavanagudi",
-}
 CITIES = ["goa", "mumbai", "delhi", "chennai", "hyderabad", "pune", "kolkata", "jaipur", "kochi", "mysore",
           "ooty", "manali", "udaipur", "coorg", "hampi"]
 DAYS = r"monday|tuesday|wednesday|thursday|friday|saturday|sunday|mon|tue|wed|thu|fri|sat|sun"

@@ -44,7 +44,8 @@
     <button data-t="ops">Ops queue</button>
     <button data-t="dash">Dashboard</button>
   </nav>
-  <span class="mute" style="margin-left:auto">Synthetic data. The LLM drafts; a human approves every outward action.</span>
+  <span class="mute" id="llmbadge" style="margin-left:auto"></span>
+  <span class="mute" style="margin-left:12px">Synthetic data. The LLM drafts; a human approves every outward action.</span>
 </header>
 <main>
   <section id="chat">
@@ -87,6 +88,7 @@ document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
 });
 
 async function init() {
+  try { const l = await api('/llm-info'); $('#llmbadge').textContent = 'LLM: ' + l.provider + (l.provider === 'ollama' ? ' / ' + l.models.large : ''); } catch (e) {}
   customers = await api('/sim/customers');
   $('#cust').innerHTML = customers.map((c,i) => `<option value="${i}">${esc(c.name)} (${c.plan})</option>`).join('');
   $('#cust').onchange = loadHistory; loadHistory();
@@ -102,7 +104,13 @@ async function loadHistory() {
 }
 $('#send').onclick = async () => {
   const text = $('#msg').value.trim(); if (!text) return; $('#msg').value = '';
-  await api('/sim/message', {phone: phone(), text, message_id: 'sim-' + Date.now()}); loadHistory();
+  const btn = $('#send'), t0 = Date.now();
+  btn.disabled = true;
+  $('#log').insertAdjacentHTML('beforeend', `<div class="b in">${esc(text)}</div><div class="b out mute" id="thinking">Working on it (the local model can take a minute)...</div>`);
+  $('#log').scrollTop = 1e9;
+  const tick = setInterval(() => { const el = $('#thinking'); if (el) el.textContent = `Working on it... ${Math.round((Date.now() - t0) / 1000)}s (the local model can take a minute)`; }, 1000);
+  try { await api('/sim/message', {phone: phone(), text, message_id: 'sim-' + Date.now()}); }
+  finally { clearInterval(tick); btn.disabled = false; loadHistory(); }
 };
 $('#msg').onkeydown = e => { if (e.key === 'Enter') $('#send').click(); };
 
@@ -141,13 +149,20 @@ async function openTask(id) {
     <details><summary>Audit trail (${t.audit.length}) · LLM cost ₹${t.llm_cost_inr.toFixed(3)} · ops ${t.human_minutes} min (modelled)</summary>
     <table>${t.audit.map(a => `<tr><td>${a.step}</td><td>${esc(a.model||'')}</td><td>${esc(a.prompt_hash||'')}</td><td>${esc(a.result||'')}</td><td>₹${a.cost_inr.toFixed(4)}</td></tr>`).join('')}</table></details>`;
 }
+// Real-model calls can take 10-60 s: lock the buttons while a request runs so a second click can't fire a stale request.
+async function busy(fn) {
+  const btns = document.querySelectorAll('#detail button'); btns.forEach(b => b.disabled = true);
+  const note = document.createElement('div'); note.className = 'mute'; note.textContent = 'Working... (the local model can take up to a minute)';
+  $('#detail').prepend(note);
+  try { await fn(); } finally { btns.forEach(b => b.disabled = false); note.remove(); }
+}
 async function decide(type, id, decision) {
   const el = type === 'vendor_outreach' ? $('#ed'+id) : type === 'customer_update' ? $('#up'+id) : null;
-  await api(`/tasks/${currentTask}/approve`, {item_type:type, item_id:id, decision, edited_text: decision==='edited' && el ? el.value : null, approver:'ops'});
+  await busy(() => api(`/tasks/${currentTask}/approve`, {item_type:type, item_id:id, decision, edited_text: decision==='edited' && el ? el.value : null, approver:'ops'}));
   openTask(currentTask); loadQueue();
 }
-async function reply(id) { await api(`/tasks/${currentTask}/vendor-reply`, {outreach_id:id, reply:$('#rep'+id).value}); openTask(currentTask); loadQueue(); }
-async function finish() { await api(`/tasks/${currentTask}/finish-manual`, {}); openTask(currentTask); loadQueue(); }
+async function reply(id) { await busy(() => api(`/tasks/${currentTask}/vendor-reply`, {outreach_id:id, reply:$('#rep'+id).value})); openTask(currentTask); loadQueue(); }
+async function finish() { await busy(() => api(`/tasks/${currentTask}/finish-manual`, {})); openTask(currentTask); loadQueue(); }
 async function resolve() { await api(`/tasks/${currentTask}/resolve`, {}); openTask(currentTask); loadQueue(); }
 
 async function loadDash() {

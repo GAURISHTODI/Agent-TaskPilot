@@ -142,16 +142,16 @@
     }
   },
   "cost": {
-    "avg_llm_cost_per_task_inr": 0.2068,
+    "avg_llm_cost_per_task_inr": 0.2339,
     "tasks": 93,
     "escalation_rate": 0.172
   },
   "_perf": {
-    "latency_ms_p50": 0.14,
-    "latency_ms_p95": 0.67,
+    "latency_ms_p50": 0.13,
+    "latency_ms_p95": 0.62,
     "per_step_p50_ms": {
       "classify": 0.51,
-      "extract": 0.14,
+      "extract": 0.13,
       "risk": 0.03,
       "clarify": 0.02,
       "plan": 0.05,
@@ -160,9 +160,9 @@
     }
   },
   "meta": {
-    "git_sha": "no-git",
+    "git_sha": "3f644fde368d1e418b532ed0c0e4e283eac13c91",
     "dataset_version": "v1",
-    "run_timestamp_utc": "2026-10-30T06:14:35+00:00",
+    "run_timestamp_utc": "2026-11-04T18:22:00+00:00",
     "provider": "fake",
     "llm_is_real": false,
     "temperature": 0,
@@ -181,7 +181,7 @@
       "slot_f1": 0.9847,
       "slot_f1_handwritten": 0.9491,
       "risk_recall": 0.9667,
-      "avg_llm_cost_per_task_inr": 0.0294
+      "avg_llm_cost_per_task_inr": 0.033
     },
     "all-large": {
       "category_accuracy": 0.9694,
@@ -189,7 +189,7 @@
       "slot_f1": 0.9905,
       "slot_f1_handwritten": 1.0,
       "risk_recall": 0.9667,
-      "avg_llm_cost_per_task_inr": 0.367
+      "avg_llm_cost_per_task_inr": 0.4131
     },
     "cascade_small_then_large_below_0.8": {
       "category_accuracy": 0.9694,
@@ -197,7 +197,7 @@
       "slot_f1": 0.9847,
       "slot_f1_handwritten": 0.9491,
       "risk_recall": 0.9667,
-      "avg_llm_cost_per_task_inr": 0.2135
+      "avg_llm_cost_per_task_inr": 0.2354
     }
   }
 }

@@ -1,6 +1,8 @@
 """Populate the configured DB with a realistic mix of finished tasks so the dashboard has data.
 Usage: python -m app.db.demo        (all data synthetic)
 """
+import os
+
 from sqlalchemy import select
 
 from app.db import models as m
@@ -25,7 +27,8 @@ def run() -> None:
     Base.metadata.create_all(engine)
     with SessionLocal() as db:
         seed(db)
-        o = Orchestrator(db, build_llm())
+        # Pre-generated with the deterministic stub: 20 tasks on a local model would take ~30 min. Set DEMO_PROVIDER=ollama to use it.
+        o = Orchestrator(db, build_llm(os.getenv("DEMO_PROVIDER", "fake")))
         for i, text in enumerate(SCRIPT):
             phone = DEMO_CUSTOMERS[i % len(DEMO_CUSTOMERS)][1]
             r = o.handle_message(phone, text)

@@ -1,5 +1,7 @@
 name: ci
 on: [push, pull_request]
+env:
+  LLM_PROVIDER: fake   # CI is deterministic; the app defaults to the real local Ollama model
 jobs:
   test:
     runs-on: ubuntu-latest

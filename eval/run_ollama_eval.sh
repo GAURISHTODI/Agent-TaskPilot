@@ -5,7 +5,7 @@
 #   sh eval/run_ollama_eval.sh e2e      # stage B only (re-uses stage A's file)
 # Output: results/metrics_real_ollama.json, results/failures_real_ollama.json
 # Raise --limit for a bigger (hours-long) run; sample sizes are recorded in the JSON (every suite has "n").
-export OLLAMA_MODEL_SMALL=${OLLAMA_MODEL_SMALL:-qwen2.5:1.5b} OLLAMA_MODEL_LARGE=${OLLAMA_MODEL_LARGE:-qwen2.5:3b}
+export OLLAMA_MODEL_SMALL=${OLLAMA_MODEL_SMALL:-qwen2.5:3b} OLLAMA_MODEL_LARGE=${OLLAMA_MODEL_LARGE:-qwen2.5:3b}
 cd "$(dirname "$0")/.."
 if [ "$1" != "e2e" ]; then
   # A: classification-style suites (normal routing: small model for classify/extract/risk)

@@ -26,10 +26,16 @@ class ToolReq(BaseModel):
 
 
 class PlanStep(BaseModel):
-    order: int
+    order: int = 0
     owner: Literal["agent", "human", "vendor"]
     action: str
-    effort_min: float = Field(ge=0)
+    effort_min: float = Field(default=5, ge=0)  # small models often omit it; a default is safer than a failed plan
+
+    @field_validator("owner", mode="before")
+    @classmethod
+    def norm_owner(cls, v):
+        v = str(v).strip().lower()
+        return {"customer": "human", "ops": "human", "staff": "human", "system": "agent", "ai": "agent"}.get(v, v)
 
 
 class PlanOut(BaseModel):
@@ -52,6 +58,11 @@ class ReplyOut(BaseModel):
     slot: str | None = None
     notes: str = ""
     tool_requests: list[ToolReq] = []
+
+    @field_validator("notes", mode="before")
+    @classmethod
+    def notes_none(cls, v):
+        return "" if v is None else v  # small models return null here; that is not worth a repair round-trip
 
 
 class JudgeOut(BaseModel):

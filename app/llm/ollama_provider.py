@@ -15,7 +15,7 @@ class OllamaLLM:
     def __init__(self):
         self.host = os.getenv("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
         self.models = {
-            "small": os.getenv("OLLAMA_MODEL_SMALL", "qwen2.5:1.5b"),
+            "small": os.getenv("OLLAMA_MODEL_SMALL", "qwen2.5:3b"),
             "large": os.getenv("OLLAMA_MODEL_LARGE", "qwen2.5:3b"),
         }
         self.timeout = float(os.getenv("OLLAMA_TIMEOUT", "300"))
@@ -25,8 +25,8 @@ class OllamaLLM:
         t0 = time.perf_counter()
         try:
             r = httpx.post(f"{self.host}/api/chat", timeout=self.timeout, json={
-                "model": model, "stream": False, "format": "json",
-                "options": {"temperature": 0, "seed": 0, "num_predict": 400},
+                "model": model, "stream": False, "format": "json", "keep_alive": os.getenv("OLLAMA_KEEP_ALIVE", "30m"),
+                "options": {"temperature": 0, "seed": 0, "num_predict": 500, "num_ctx": 4096},
                 "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
             })
             r.raise_for_status()
